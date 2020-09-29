@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Jay Brophy&#39;s Website</title>
+    <link>/slides/</link>
+      <atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <item>
+      <title>Slides - Debate CTO should not be routinely opened</title>
+      <link>/slides/debate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/slides/debate/</guid>
+      <description>&lt;h2 id=&#34;not-available-for-download&#34;&gt;Not available for download&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;debate/slides/Brophy_CTO1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;debate/slides/Brophy_CTO1.jpeg&#34;
+  &gt;
+
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;slidesbrophy_cto1jpeg&#34;&gt;&lt;img src=&#34;slides/Brophy_CTO1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;slidesbrophy_cto2jpeg&#34;&gt;&lt;img src=&#34;slides/Brophy_CTO2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;slidesbrophy_cto4pdf&#34;&gt;&lt;img src=&#34;slides/Brophy_CTO4.pdf&#34; alt=&#34;&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;slidesbrophy_cto5pdf&#34;&gt;&lt;img src=&#34;slides/Brophy_CTO5.pdf&#34; alt=&#34;&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;slidesbrophy_cto6pdf&#34;&gt;&lt;img src=&#34;slides/Brophy_CTO6.pdf&#34; alt=&#34;&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;hahahugoshortcode-s1-hbhb&#34;&gt;
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./slides/debate/Brophy_CTO1.pdf&#34;
+  &gt;
+&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

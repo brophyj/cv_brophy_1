@@ -1,0 +1,37 @@
+---
+title: Montreal Covid visualizations - Part 2
+author: jay brophy
+date: '2020-06-29'
+slug: montreal-covid-visualizations-part-2
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-29T14:25:26-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+```{r setup, include=FALSE, fig.width= 12}
+knitr::opts_chunk$set(echo = TRUE)
+```
+![](/img/Rplot_moving_avg.png)   
+
+The majority of Covid-19 cases in Quebec are on the island of Montreal. Using daily reports from [Quebec Public Health](https://santemontreal.qc.ca/en/public/coronavirus-covid-19/situation-of-the-coronavirus-covid-19-in-montreal/), I have made a few graphs that explore the rate of infections for the different Montreal neighborhoods.     
+
+Data visualizations help to appreciate the time and geographic variations of Covid-19 infections.     
+
+The left panel shows the large variations in the severity in the number of cases across different regions of Montreal. The right panel shows the 5 day moving averages of new cases which are decreased in all areas & provides some support for the progressive re-opening that is happening.    
+
+Continued public health measures, testing and monitoring are obviously essential.
+      
+ 
+      
+   

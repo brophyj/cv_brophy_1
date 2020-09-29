@@ -1,0 +1,39 @@
+---
+title: COVID, masks and poor science
+author: Jay Brophy
+date: '2020-07-17'
+slug: covid-masks-and-poor-science
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-07-17T12:13:59-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+```{r setup, include=FALSE, fig.width= 12}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+A CDC [report](https://wwwnc.cdc.gov/eid/article/26/5/19-0994_article) that concludes     
+*“face masks, evidence from randomized controlled trials of these measures did not support a substantial effect on transmission of laboratory-confirmed influenza”*     
+is just WRONG.    
+
+It uses an incorrect fixed effects statistical model, thereby ignoring between study variations.Moreover its  interpretation is plagued by the common null hypothesis statistical testing cognitive biases of dichotomania and nullism.          
+
+
+
+Proper analysis (see Figure below) shows average benefit could be as great as 56% reduction and next study could show a benefit of up to 82% reduction.     
+
+Unlikely any increased risk so more reasonable conclusion **“MASK UP while awaiting more studies to refine the exact size of any benefit.”**
+
+![](/img/mask.png)
+
+

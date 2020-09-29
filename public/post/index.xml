@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Jay Brophy&#39;s Website</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>COVID, masks and poor science</title>
+      <link>/post/covid-masks-and-poor-science/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-masks-and-poor-science/</guid>
+      <description>
+
+
+&lt;p&gt;A CDC &lt;a href=&#34;https://wwwnc.cdc.gov/eid/article/26/5/19-0994_article&#34;&gt;report&lt;/a&gt; that concludes&lt;br /&gt;
+&lt;em&gt;“face masks, evidence from randomized controlled trials of these measures did not support a substantial effect on transmission of laboratory-confirmed influenza”&lt;/em&gt;&lt;br /&gt;
+is just WRONG.&lt;/p&gt;
+&lt;p&gt;It uses an incorrect fixed effects statistical model, thereby ignoring between study variations.Moreover its interpretation is plagued by the common null hypothesis statistical testing cognitive biases of dichotomania and nullism.&lt;/p&gt;
+&lt;p&gt;Proper analysis (see Figure below) shows average benefit could be as great as 56% reduction and next study could show a benefit of up to 82% reduction.&lt;/p&gt;
+&lt;p&gt;Unlikely any increased risk so more reasonable conclusion &lt;strong&gt;“MASK UP while awaiting more studies to refine the exact size of any benefit.”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/mask.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pharma, bribes and MDs</title>
+      <link>/post/pharma-bribes-and-mds/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/pharma-bribes-and-mds/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.nbcnews.com/business/economy/it-was-his-dream-job-he-never-thought-he-d-n1232971&#34;&gt;$678 million fine&lt;/a&gt; testifies to how well these pharma bribes work, including the so-called CME events. Any bets that this is continuing today? Maybe more sophisticated and better camouflaged but still very present.   &lt;br&gt;
+&lt;strong&gt;IMHO, biggest bang for their buck are guideline writers.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/COI.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here is an empirical example that may, or may not, be related to this story. In 2012 Canadian, European and US guideline writers offered guidelines on dual antiplatelet therapy (DAPT) for acute coronary syndromes. The comparison is straightforward as there was only 1 published RCT (PLATO), examining the standard clopidogrel therapy and the newer ticagrelor as so all guideline writers were working from the same evidence base. CDN and European guideline writers &amp;ldquo;recommended ticagrelor over clopidogrel&amp;rdquo; while the US writers (0 of 9 writers had a conflict of interest), looking at the same data concluded &amp;ldquo;does not endorse one over the other&amp;rdquo;. Look at the above table between conflicts of interest among the different guideline writers and the ticagrelor manufacturer.&lt;/p&gt;
+&lt;p&gt;Play of chance or &amp;hellip;?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Glad to be at the back of the queue</title>
+      <link>/post/glad-to-be-at-the-back-of-the-queue/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/glad-to-be-at-the-back-of-the-queue/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/pills_header.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/us-news/2020/jun/30/us-buys-up-world-stock-of-key-covid-19-drug?CMP=share_btn_tw&#34;&gt;June 30 headlines&lt;/a&gt; reported that the US had bought all the reserves of remdesivir, leaving none
+for “the next three months of one of the two drugs proven to work against covid-19, leaving none for the UK, Europe, or most of the rest of the world.”&lt;/p&gt;
+&lt;p&gt;In a &lt;a href=&#34;https://blogs.bmj.com/bmj/2020/07/03/as-the-us-purchases-world-stocks-of-remdesivir-why-the-rest-of-the-world-should-be-glad-to-be-at-the-back-of-the-queue/&#34;&gt;BMJ opinion piece&lt;/a&gt;, I outline why, contrary to many current sentiments, this action, although reflective of the apotheosis of a self centered nation with no appreciation for international collaboration, is not necessarily bad for the rest of the world. Basically, I summarize the many scientific limitations of current studies and their likely over-exaggeration of any meaningful benefits. Also not to be ignored are remdesivir’s lack of clinical success in treating other viral diseases, its exorbitant price, and cognitive biases about its purported benefits stemming from the overhyping of initial results.&lt;/p&gt;
+&lt;p&gt;I argue that it is better to have the plutocratic American healthcare system dominate this market with an expenditure of $1.5 billion for such uncertain benefits. The money other countries save can surely be better spent on further research for this and other drugs as well as for public health measures, including testing, contact tracing, and maintaining universal healthcare, all notable lacunae in the American system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Montreal Covid visualizations - Part 2</title>
+      <link>/post/montreal-covid-visualizations-part-2/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/montreal-covid-visualizations-part-2/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/img/Rplot_moving_avg.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The majority of Covid-19 cases in Quebec are on the island of Montreal. Using daily reports from &lt;a href=&#34;https://santemontreal.qc.ca/en/public/coronavirus-covid-19/situation-of-the-coronavirus-covid-19-in-montreal/&#34;&gt;Quebec Public Health&lt;/a&gt;, I have made a few graphs that explore the rate of infections for the different Montreal neighborhoods.&lt;/p&gt;
+&lt;p&gt;Data visualizations help to appreciate the time and geographic variations of Covid-19 infections.&lt;/p&gt;
+&lt;p&gt;The left panel shows the large variations in the severity in the number of cases across different regions of Montreal. The right panel shows the 5 day moving averages of new cases which are decreased in all areas &amp;amp; provides some support for the progressive re-opening that is happening.&lt;/p&gt;
+&lt;p&gt;Continued public health measures, testing and monitoring are obviously essential.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Montreal, a global Covid perspective</title>
+      <link>/post/montreal-a-global-covid-perspective/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/montreal-a-global-covid-perspective/</guid>
+      <description>
+
+
+&lt;p&gt;I was curious to see where Montreal placed in the global Covid-19 perspective.&lt;br /&gt;
+&lt;img src=&#34;/img/covid_global.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Looking at these figures, Montreal data looks very concerning but some caveats must be acknowledged.&lt;/p&gt;
+&lt;p&gt;More testing would most likely help. If we were doing more testing and detecting less serious cases, our case fatality rate would not look so alarming. More importantly, more testing may lead to earlier identification of asymptomatic cases decreasing potential exposure to our more vulnerable populations thereby hopefully improving our overall death rates.&lt;/p&gt;
+&lt;p&gt;However, it is unlikely that &amp;gt; 10-15 fold differences observed can be explained by differences in testing, respecting public health measures, Covid virulence, genetics, or health care delivery. Information bias from variable and questionable data collection probably explains a lot of the variations. With questionable data, prediction models are associated with so much uncertainty their public health utility will be limited.&lt;/p&gt;
+&lt;p&gt;In addition to increased testing, we therefore need to enhance the reliability of data collection. This will be essential to better understanding our current and future positions and informing public policy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Covid visualizations</title>
+      <link>/post/covid-visualizations/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-visualizations/</guid>
+      <description>
+
+
+&lt;p&gt;The majority of Covid-19 cases in Quebec are on the island of Montreal. Using daily reports from Quebec public health, I have made a few graphs that explore the rate of infections during the month of April for the different Montreal neighbourhoods.&lt;br /&gt;
+Data visualizations help to appreciate the time and geographic variations of Covid-19 infections. Infections started in central higher SES areas (? areas with more spring break travel) before spreading to predominately lower SES areas
+&lt;a href=&#34;/post/Combined_map.html&#34;&gt;click here for interactive Montreal maps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/covid_area.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Obviously inferences of Montreal cases are limited by the uncertain quality of the data. With this caveat, here are some personal observations&lt;br /&gt;
+* Early in the month, cases were highest in higher SES areas, likely highlighting ^ travel exposure in these areas&lt;br /&gt;
+* As month progressed, saw the usual gradient of more cases in areas with lower SES and higher population densities&lt;br /&gt;
+* No region has definitively “turned the corner”, but the majority of areas seems to be leveling off, giving some hope that the announced progressive easing of current restrictions will not lead to a complete disaster&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtual Learning &amp; Corporate Sponsorship</title>
+      <link>/post/virtual-learning-corporate-sponsorship/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/virtual-learning-corporate-sponsorship/</guid>
+      <description>
+
+
+&lt;p&gt;One positive from the &lt;strong&gt;Covid-19&lt;/strong&gt; pandemic, is we have had to learn more techniques about online or virtual learning. The proliferation of these tools, such as Zoom, and our increased familiarity with their use will perhaps have a lasting impact on our learning processes. For example, with increased ease of online learning, perhaps we will reduce our carbon footprint for small, medium and even large medical conferences as we reduce our traveling and need for physical presence at these venues.&lt;/p&gt;
+&lt;p&gt;Certainly in the academic world, we had to rapidly adapt (within a 2 week period) from giving standard onsite lectures to the virtual teaching world. Surprisingly, the transition was relatively painless. For example, I gave the last 12 hours of the winter semester of my intermediate epidemiology course to 71 MSc students via Zoom. The cost of this is farily trivial. I believe the price of a premium Zoom subscription is about $20 / month.&lt;/p&gt;
+&lt;p&gt;Given these facts I was not surprised to receive a recent email about an upcoming virtual course on heart failure.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/ScreenShot_1.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;However, what did surprise me was seeing that this symposium had &lt;strong&gt;12 corporate sponsors&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/ScreenShot_2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This raises several questions:&lt;br /&gt;
+- Why are academics so tied in with coroporate interests?&lt;br /&gt;
+- Are academics only willing to participate if personal financial rewards are present?&lt;br /&gt;
+- Coroporations are not philatrophic organizations, so what is the payoff for them?&lt;br /&gt;
+- Is it a quasi guarantee that their products will be highlighted in a positive manner?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dig is OK</title>
+      <link>/post/dig-is-ok/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/dig-is-ok/</guid>
+      <description>
+
+
+&lt;p&gt;This is from a tweetorial looking at the safety and efficacy of digitalis in heart failure.&lt;br /&gt;
+&lt;img src=&#34;/img/dig_post_Page_1.png&#34; id=&#34;id&#34; class=&#34;class&#34; align=&#34;center&#34; style=&#34;width:300.0%;height:125.0%&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;/img/dig_post_Page_2.png&#34; id=&#34;id&#34; class=&#34;class&#34; align=&#34;center&#34; style=&#34;width:125.0%;height:125.0%&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CABG vs. PCI in LM</title>
+      <link>/post/2020-04-16-cabg-vs-pci-in-left-main-disease/</link>
+      <pubDate>Sun, 01 Dec 2019 10:38:37 -0500</pubDate>
+      <guid>/post/2020-04-16-cabg-vs-pci-in-left-main-disease/</guid>
+      <description>
+
+
+&lt;p&gt;This is a blog post about a recent &lt;a href=&#34;https://www.nejm.org/doi/full/10.1056/NEJMoa1909406&#34;&gt;NEJM article&lt;/a&gt;.
+&lt;img src=&#34;/img/PCI_CABG.jpg&#34; id=&#34;id&#34; class=&#34;class&#34; align=&#34;right&#34; style=&#34;width:75.0%;height:75.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Based on the primary outcome result (difference, 2.8 percentage
+points; 95% confidence interval [CI], −0.9 to 6.5; P = 0.13), the EXCEL authors conclude “In patients with left main coronary artery disease of low or intermediate anatomical complexity, there was no significant difference between PCI and CABG”. Leaving aside that CABG was statistically superior in terms of total mortality, ischemia driven revascularization, and non-procedural myocardial infarction, it is questionable that the primary outcome data actually support their conclusion. EXCEL was originally designed as a non-inferiority (NI) study with a margin of 4.2%, which en passant many would consider too liberal. Even accepting that margin, how can a primary outcome with a 95% upper CI of 6.5%, exceeding the original NI margin be used to support their conclusion?&lt;/p&gt;
+&lt;p&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

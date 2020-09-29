@@ -1,0 +1,263 @@
+---
+name: James (Jay) Brophy
+position: "Professor of Medicine"
+address: "McGill University"
+phone: 514 934-1934
+profilepic: brophy.jpg
+www: www.brophyj.com
+email: "james.brophy@mcgill.ca"
+twitter: brophyj
+github: brophyj
+linkedin: brophyj
+# orcid: ff837659-6cab-4980-bc45-51d836e4fd6b
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Slightly contrarian cardiologist living and working in Montreal Canada"
+output: vitae::hyndman
+linkcolor: red
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+# ref https://github.com/ropenscilabs/vitae
+library(tidyverse)
+library(RefManageR)
+library(vitae) # devtools::install_github("ropenscilabs/vitae")
+library(knitr)
+
+```
+
+# Education
+```{r education}
+library(rorcid)
+library(vitae)
+x <- orcid_auth()
+
+# seems to get right info
+# x
+#[1] "Bearer ff837659-6cab-4980-bc45-51d836e4fd6b"
+
+Sys.setenv(ORCID_TOKEN = "ff837659-6cab-4980-bc45-51d836e4fd6b") #may need to run this line separate first before knitting
+
+edu <- rorcid::orcid_educations("0000-0001-8049-6875")
+
+edu <- do.call("bind_rows",
+  rorcid::orcid_educations("0000-0001-8049-6875")$`0000-0001-8049-6875`$`affiliation-group`$summaries
+)
+edu %>%
+  detailed_entries(
+    what = `education-summary.role-title`,
+    when = glue::glue("{`education-summary.start-date.year.value`} - {`education-summary.end-date.year.value`}"),
+    with = `education-summary.organization.name`,
+    where = `education-summary.organization.address.city`
+  )
+
+```
+
+# Current Research Funding (PI) 
+
+```{r awards}
+library(tibble)
+library(vitae)
+tibble::tribble(
+  ~name, ~event, ~location, 
+  "Appui à la recherche en évaluation des technologies et des pratiques de pointe dans les CHU (Health Technology and Evidence Based Medicine)", "Fonds de Recherche Quebec Sante (FRQS)", "July 2018-23",
+ "Ticagrelor compared to clopidogrel in acute coronary syndromes - the TC4 comparative effectiveness study", "Canadian Institutes of Health Research (CIHR) Project Grant Total Funding - $309,825","2018/4 - 2021/3") %>% 
+  detailed_entries(
+    what = name,   #when = year,
+    with = event,
+    where = location
+  )
+```
+
+# Awards 
+```{r}
+library(tibble)
+library(vitae)
+tibble::tribble(
+  ~name, ~event, ~location, 
+  "Fellow Canadian Academy of Health Sciences", "", "Sept 2018",
+  "Fellow Canadian Cardiovascular Society", "", "May 2017") %>%
+  detailed_entries(
+    what = name,   #when = year,
+    with = event,
+    where = location
+  )
+```
+
+# Publications 
+
+All publications (`r nrow(brophy <- scholar::get_publications("IXoZb4wAAAAJ") %>% 
+    filter( !grepl('Response|reply|Renewed|Reply', title)))` on `r Sys.Date()`) as recorded in Google Scholar can be found [**here**](https://scholar.google.com/citations?user=IXoZb4wAAAAJ&hl=en)        
+Citations 15,215, h-index 53
+
+       
+```{r fig.height=3}
+#plot over time from 2004-
+library(ggplot2)
+brophy <- scholar::get_publications("IXoZb4wAAAAJ") %>% 
+    filter( !grepl('Response|reply|Renewed|Reply', title))
+
+trend <- brophy %>%
+  filter(year >2007) %>%
+  group_by(year) %>%
+  summarise(n=n())
+ggplot(trend,aes(year,n)) +
+  geom_point() +
+  geom_line() +
+  # ggtitle("Publications according to Google Scholar") +
+    labs(subtitle=" Includes letters, editorials as well as original articles") +
+    ylab("Number of Publications") +
+    xlab("Year") +
+    scale_x_continuous(breaks = scales::pretty_breaks(n = 8)) +
+    theme_bw()
+
+```
+        
+        
+        
+# Publications 2020        
+ 
+```{r}
+brophy <- scholar::get_publications("IXoZb4wAAAAJ") %>% 
+    filter(year == 2020   & !grepl('Response|reply|Renewed|Reply', title)) %>%
+    arrange(desc(year))
+
+top <- brophy[, c("title", "journal", "year", "author", "cites")]
+top$title <- as.character(top$title)
+top %>%
+  detailed_entries(
+    what = title,
+    when = year,
+    with = author,
+    where = journal)
+   
+
+# top_n(brophy, 16) %>%
+#    detailed_entries(
+#    what = title,
+#    when = year,
+#    with = author,
+#    where = journal) 
+
+
+# top_n(XX)  filter XX publications as needed for formating purposes in pdf
+``` 
+
+
+# Publications 2019   
+
+```{r}
+brophy <- scholar::get_publications("IXoZb4wAAAAJ") %>% 
+    filter(year == 2019   & !grepl('Response|reply|Renewed|Reply', title)) %>%
+    arrange(desc(year))
+
+top <- brophy[, c("title", "journal", "year", "author", "cites")]
+top$title <- as.character(top$title)
+top %>%
+  detailed_entries(
+    what = title,
+    when = year,
+    with = author,
+    where = journal)
+   
+
+# top_n(brophy, 16) %>%
+#    detailed_entries(
+#    what = title,
+#    when = year,
+#    with = author,
+#    where = journal) 
+
+
+# top_n(XX)  filter XX publications as needed for formating purposes in pdf
+```
+
+
+
+```{r echo=FALSE, eval=FALSE}
+# Publications 2018   
+brophy <- scholar::get_publications("IXoZb4wAAAAJ") %>% 
+    filter(year == 2018  & !grepl('Response|reply|Renewed|Reply', title)) %>%
+    arrange(desc(year))
+
+top <- brophy[, c("title", "journal", "year", "author", "cites")]
+top$title <- as.character(top$title)
+top %>%
+  detailed_entries(
+    what = title,
+    when = year,
+    with = author,
+    where = journal)
+```
+
+
+
+# Top citations
+
+```{r top}
+brophy <- scholar::get_publications("IXoZb4wAAAAJ") %>%
+    arrange(desc(cites))
+
+top <- brophy[3:7, c("title", "journal", "year", "author", "cites")]
+top$title <- as.character(top$title)
+top$title[2] <- c("Beta Blockers in congestive heart failure: a Bayesian meta-analysis")
+top %>%
+  detailed_entries(
+    what = title,
+    when = year,
+    with = author,
+    where = journal,
+    why = glue::glue("cites: {cites}"))
+```
+# Talks (2019)
+
+```{r talks19}
+library(tibble)
+library(vitae)
+tibble::tribble(
+  ~name, ~event, ~location, 
+  "Evaluating evidence from meta-analyses of randomized controlled trials using a Bayesian approach", "McGill University Health Center Health Technology Symposium", "Montreal QC July 2019",
+  "Practical session: R for health economic analyses", "McGill University Health Center Health Technology Symposium", "Montreal QC July 2019",
+   "Critical review of the medical literature", "McGill University Epidemiology (600) guest lecture", "Montreal QC July 2019",
+"Critical analysis of the health technology assessment", "McGill University Epidemiology (600) guest lecture", "Montreal QC July 2019",
+"Dual antiplatelet therapy 2019 - An Integrated Approach", "Jewish General Hospital", "Montreal QC Oct 4 2019",
+  "Dual antiplatelet therapy 2019 - Beyond guidelines", "McGill University Health Center Cardiology Grand Rounds", "Montreal QC Sept 26 2019",
+  "Dual antiplatelet therapy - The totality of the evidence and its uncertainty", "McGill University Health Center Medicine Grand Rounds", "Montreal QC Sept 24 2019",
+  "Dual antiplatelet therapy - An MUHC initiated comparative effectiveness study", "McGill University Health Center Cardiology Grand Rounds", "Montreal QC Sept 20 2018") %>% 
+  detailed_entries(
+    what = name,   #when = year,
+    with = event,
+    where = location
+  )
+```
+
+# Talks (2018)
+
+```{r talks18}
+library(tibble)
+library(vitae)
+tibble::tribble(
+  ~name, ~event, ~location, 
+  "Revascularization 2018 - (Personal reflections on personalized medicine)", "McGill University Health Center Cardiovascular Multidisciplinary Rounds", "Montreal QC Sept 20 2018",
+  "Evidence to inform practice: Promising avenues and dead ends (Panel)", "European Society of Cardiology","Munich Germany Aug 30 2018",
+  "Observational study designs: successes, limitations, pitfalls, lessons learned", "McGill University Epi 600 guest lecture", "Montreal June 5 2018",
+  "Health technology assessment and economic analyses", "McGill University Epi 600 guest lecture", "Montreal June 19 2018",
+  "Observational studies in cardiology – case of NSAID cardio toxicity", "McGill Epidemiology Winter Seminar Series", "Montreal February 26 2018", 
+  "The crisis in medical guidelines", "Guest lecture The Crisis in Health Research seminar course", "Montreal Feb 2018") %>% 
+  detailed_entries(
+    what = name,   #when = year,
+    with = event,
+    where = location
+  )
+```
+
+```
+```{r publications}
+temp <- bibliography_entries("My_endnote.bib")
+temp$author <- gsub("[ and]",", ", temp$author)
+```
+
+
+
